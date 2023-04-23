@@ -1,0 +1,8 @@
+CREATE TABLE users(
+    SL_NO int AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    Name varchar(50),
+    Email varchar(50),
+    Password varchar(50),
+    code int(10),
+    Email_status varchar(15)
+);
